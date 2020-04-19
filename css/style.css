@@ -695,12 +695,12 @@ a:hover {
   background-color: #cde1f8;
   margin: .5rem 0 1.2rem 0;
   border-radius: 0;
-  height: .7rem;
+  height: .2rem;
 }
 
 .skill-mf .progress .progress-bar {
-  height: .7rem;
-  background-color: rgb(75, 8, 8);
+  height: .2rem;
+  background-color: rgb(66, 13, 13);
 }
 
 /*======================================
@@ -772,8 +772,14 @@ a:hover {
 //--//-->   PORTFOLIO
 ======================================*/
 
+.col-md-4-1 {
+  align-items: center;
+  
+ 
+}
 .work-box {
-  margin-bottom: 3rem;
+  align-items: center;
+  margin-bottom: 10rem;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
@@ -787,15 +793,15 @@ a:hover {
 .work-img {
   display: block;
   overflow: hidden;
+  align-items: center;
+  margin-bottom: 10rem;
 }
 
 .work-img img {
-  transition: all 1s;
+  transition: all 0.1s;
 }
 
-.work-content {
-  padding: 2rem 3% 1rem 4%;
-}
+
 
 .work-content .w-more {
   color: #4e4e4e;
@@ -807,7 +813,7 @@ a:hover {
 }
 
 .work-content .w-like {
-  font-size: 2.5rem;
+  font-size: 1.2rem;
   color: #0078ff;
   float: right;
 }
